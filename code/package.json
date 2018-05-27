@@ -1,0 +1,20 @@
+{
+  "name": "kinvey-getting-started",
+  "version": "0.0.1",
+  "description": "Code samples related to the Kinvey getting started guide",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pretest": "./node_modules/.bin/eslint lib index.js test",
+    "lint": "./node_modules/.bin/eslint collections/main.js test"
+  },
+  "author": "Brian Rinaldi",
+  "license": "MIT",
+  "dependencies": {
+    "eslint": "4.7.2"
+  },
+  "devDependencies": {
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-config-kinvey-platform": "kinvey/eslint-kinvey-platform#v0.1.1"
+  }
+}
